@@ -30,4 +30,4 @@ while sum < 4000000:
     
 print(result)
 
-#end time is 10:30
+#end time is 10:30. Total: 50 minutes
