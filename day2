@@ -1,0 +1,19 @@
+11:21am
+
+#problem 3 
+
+number = 13195
+i = 2
+while i**2 < number: #since a prime number goes from the bottom and also goes from the top, if we square i, it will only look for 
+    while number % i == 0:
+        number = number / i 
+    i = i + 1 #so that it can scan through the set of numbers. 
+
+print(number)
+
+#problem 4
+
+n = 0
+for pali in range(240, 103): #im lost. 
+
+12:30
