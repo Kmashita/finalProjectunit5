@@ -1,0 +1,18 @@
+#11:00pm, end 12:00am (60 minutes)
+
+#Problem 4
+
+biggest = 0 #starts off 0 and increases as we find new numbers. 
+
+for a in range(99,1000): #three digit range
+    for b in range(99,1000):
+        product = a * b #multiply for product
+        product = str(product)
+        length = len(product) #find the length to see how we should analyze the product.
+        if product[0] == product[length] and product[1] == product[(length-1)] and product[2] == product[length-2] and product[3] == product[length-3]: #doesn't work but analyzes if it is a pelindrum
+            if biggest < product: #if the new number is bigger than the previous biggest, it updates. 
+                biggest = product
+print(biggest) #prints to show it. 
+
+#having trouble with lane 12. Out of range? need help. 
+
