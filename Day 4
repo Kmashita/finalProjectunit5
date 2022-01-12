@@ -1,0 +1,14 @@
+#Start 5:56pm Jan 11th 
+
+biggest = 0 #start at zero as we wanna keep replacing it with bigger numbers. 
+for a in range(99,1000): #finds a three digit number 
+    for b in range(99,1000):
+        product = a * b #multiples a and b to get the number we are looking for. 
+        if product > biggest: #if the new product is bigger than the previous
+            s = str(a * b) #the new string being tested becomes the new number 
+            if s == s[::-1]: #we flip the number here and see if they are equal. 
+                 biggest = a * b #if it is, the new biggest number is determined. 
+print(biggest)
+
+#7:01pm finish
+
