@@ -1,0 +1,28 @@
+#Start 6:05pm Jan 13th 
+
+x = 2520 #there is no way the number is smaller than the given example 
+a = 1
+while a < 21: #til 20
+    if x % a == 0: #remainder so the answer always must be an integar to qualify
+        a = a + 1 #up to 20
+    else:
+        x = x + 1 #adds one more to test if the next number works or not.
+        a = 1
+print(x) #prints the number
+
+
+""" Those are my previous trials but didn't seem to work. 
+
+def divide(x):
+    for i in range(0,21): #finds a three digit number
+        if x % i != 0:
+            return x
+x = 0
+while True:
+    if divide(x):
+        break
+    else:
+        x = x+1
+print(x)"""
+
+#7:07pm finish
