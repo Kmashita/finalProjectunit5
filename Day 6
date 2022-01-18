@@ -18,6 +18,6 @@ n = 10001 - 13 #must subtract 13 because the number equation only works beyond t
 num = n**2 + n + 41 #formula on how to get the prime number. 
 print(num) #print it 
 
-#End 7:15pm Jan 17th 
+#End 7:15pm Jan 17th, finish time: 64 minutes. 
 
 
