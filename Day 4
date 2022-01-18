@@ -10,5 +10,5 @@ for a in range(99,1000): #finds a three digit number
                  biggest = a * b #if it is, the new biggest number is determined. 
 print(biggest)
 
-#7:01pm finish
+#7:01pm finish, total time: 65 minutes 
 
