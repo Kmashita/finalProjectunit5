@@ -1,0 +1,23 @@
+#Start 6:11pm Jan 17th 
+
+#problem 6 
+
+big = 0
+s = 0
+
+for i in range(1, 101):
+    big += i**2 #This is the exponential symbol. 
+    s += i 
+
+s = s**2 #exponential of s 
+
+print(s - square) #final result 
+
+#Problem 7
+n = 10001 - 13 #must subtract 13 because the number equation only works beyond the 13th prime number. 
+num = n**2 + n + 41 #formula on how to get the prime number. 
+print(num) #print it 
+
+#End 7:15pm Jan 17th 
+
+
