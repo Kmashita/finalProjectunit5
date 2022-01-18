@@ -16,4 +16,4 @@ print(number)
 n = 0
 for pali in range(240, 103): #im lost. 
 
-12:30
+#12:30 total time: (69 minutes)
